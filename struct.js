@@ -1,7 +1,12 @@
+const loginform = document.querySelector(".form")
+const logininput = loginform.querySelector("input")
+const loginbutton = loginform.querySelector("button")
 
 
-const age = prompt("ㅎㅇ여");
+function onloginbuttonclick() {
+    console.log(logininput.value)
+    console.log("click~")
+}
 
-console.log(document.getElementById("title"))
 
-console.log(age);
+loginbutton.addEventListener("click",onloginbuttonclick)
