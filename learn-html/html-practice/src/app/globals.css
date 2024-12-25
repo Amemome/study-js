@@ -1,0 +1,11 @@
+
+
+
+body {
+    color : #1fe331;
+}
+
+::selection {
+    background-color: aliceblue;
+    color: violet;
+}
